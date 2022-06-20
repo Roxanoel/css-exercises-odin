@@ -5,6 +5,11 @@
 
 .container {
   text-align: center;
+
+  /* Added */
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  gap: 4px;
 }
 
 .container div {
