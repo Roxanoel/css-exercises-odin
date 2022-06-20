@@ -27,6 +27,7 @@
   grid-column: 1 / -1;
   display: grid;
   grid-template-columns: 1fr 4fr;
+  align-items: center;
 }
 
 .logo {
