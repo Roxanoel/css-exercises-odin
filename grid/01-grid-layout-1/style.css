@@ -11,6 +11,9 @@ body, html {
 
   /*additions*/
   display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(8, 12.5%);
+  gap: 15px;
 }
 
 .container div {
@@ -24,18 +27,22 @@ body, html {
 
 .header {
   background-color: #FFDE22;
+  grid-column: 1 / -1;
 }
 
 .sidebar {
   background-color: #FF7755;
+  grid-area: 2 / 1 / span 6 / span 1;
 }
 
 .nav {
   background-color: #00DDFF;
+  grid-area: 2 / 2 / 3 / -1;
 }
 
 .article {
   background-color: #bccbde;
+  grid-area: 3 / 2 / -2 / -1;
 }
 
 .article p {
@@ -47,4 +54,5 @@ body, html {
 
 .footer {
   background-color: #393f4d;
+  grid-area: -1 / 1 / -2 / -1;
 }
