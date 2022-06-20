@@ -118,6 +118,9 @@
   background-color: #FFFFFF;
   color: black;
   text-align: center;
+
+  /* Added */
+  height: 200px;
 }
 
 .card p {
