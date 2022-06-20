@@ -50,6 +50,10 @@
 
 .sidebar {
   background-color: #FF7755;
+
+  /* Added */
+  display: grid;
+  gap: 50px;
 }
 
 .sidebar .photo {
