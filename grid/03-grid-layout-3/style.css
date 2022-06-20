@@ -75,6 +75,10 @@
 }
 
 .nav ul {
+  /* Added */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style: none;
 }
 
 .nav ul li {
