@@ -128,6 +128,9 @@
 
 .footer {
   background-color: #393f4d;
+
+  /* Added */
+  grid-column: 1/-1;
 }
 
 .footer p {
